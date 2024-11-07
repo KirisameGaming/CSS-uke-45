@@ -3,13 +3,8 @@
     justify-content: center;
     align-items: center;
     background-color: orange;
-    height: 10vh;
-}
-.sec2{
-    display: flex;
-    justify-content: center;
-    background-color: orange;
     height: 100vh;
+    flex-direction: column;
 }
 
 #tittle1{
