@@ -1,0 +1,23 @@
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 10vh;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    height: 100vh;
+}
+
+#tittle1{
+    color: white;
+    font-size: 3.25rem;
+}
+
+#undertext1{
+    color: white;
+    font-size: 3.25rem;
+}
