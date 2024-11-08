@@ -33,6 +33,10 @@ header{
     background-color: aqua;
 }
 
+h2{
+    text-align: center;
+}
+
 .buttons a{
     text-decoration: none;
     color: black;
@@ -51,7 +55,7 @@ header{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 25px 25px;
-    grid-auto-rows: 400px;
+    grid-auto-rows: 800px;
     grid-template-columns: 1fr 2fr 1fr;
 }
 
@@ -71,8 +75,26 @@ article:hover{
     font-size: 150%;
 }
 
+.produktinfo{
+    align-items: center;
+    display: flex;
+    grid-template-columns: 25% 25%;
+    gap: 25px 25px;
+    grid-auto-rows: 700px;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+}
+
+.produktinfo img{
+    width: 25%;
+}
+
+.produktinfo h1{
+    text-align: center;
+}
+
 .en{
-    color: rgb(255, 255, 255);
+    color: white;
     background-image: url("cool.png");
 }
 .to{
@@ -83,8 +105,21 @@ article:hover{
     color: rgb(202, 255, 57);
     background-image: url("epic.jpg");
 }
+.fire{
+    color: white;
+    background-image: url("epic.jpg");
+}
+.fem{
+    color: white;
+    background-image: url("goober.png");
+}
+.seks{
+    color: white;
+    background-image: url("jordan.webp");
+}
 
 footer {
     min-height: 50px;
     background: rgb(124, 115, 101);
+    padding: 5px;
 }
